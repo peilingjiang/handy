@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JPL DESIGN hacked</title>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="JPL, Peiling Jiang, Design, Portfolio">
+    <meta name="description" content="Projects of Peiling Jiang (JPL), a design student.">
+    <meta name="author" content="Peiling Jiang 江沛岭">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="format-detection" content="telphone=no, email=no">
+    <meta name="applicable-device" content="pc, mobile">
+
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+
+    <meta name="apple-mobile-web-app-title" content="JPL DESIGN">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <link rel="apple-touch-icon" sizes="152x152" href="main_assets/JPL_icons/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="main_assets/JPL_icons/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="main_assets/JPL_icons/touch-icon-ipad-retina.png">
+    <link rel="shortcut icon" type="image/png" href="main_assets/JPL_icons/favicon.png">
+    <link rel="mask-icon" sizes="any" href="main_assets/JPL_icons/J.svg" color="#00d1ff">
+
+    <meta name="google" value="notranslate">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="_css/main.css">
+    <link rel="stylesheet" type="text/css" href="_css/www_general.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1440px)" href="_css/www_large_pc.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1440px) and (min-width: 850px)" href="_css/www_pc.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 850px)" href="_css/www_pad.css">
+
+    <!--JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script type='text/javascript'>
+        // Update the quantity of costume icons.
+        var photo = 12;
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/ml5js/Intro-ML-Arts-IMA@ml5-build-10-13-19-2/ml5_build/ml5.min.js"></script> -->
+
+</head>
+
+<body>
+    <header>
+        <div id="preLoad">
+            <img src="main_assets/JPL_icons/custome/1.svg">
+            <img src="main_assets/JPL_icons/custome/2.svg">
+            <img src="main_assets/JPL_icons/custome/3.svg">
+            <img src="main_assets/JPL_icons/custome/4.svg">
+            <img src="main_assets/JPL_icons/custome/5.svg">
+            <img src="main_assets/JPL_icons/custome/6.svg">
+            <img src="main_assets/JPL_icons/custome/7.svg">
+            <img src="main_assets/JPL_icons/custome/8.svg">
+            <img src="main_assets/JPL_icons/custome/9.svg">
+            <img src="main_assets/JPL_icons/custome/10.svg">
+            <img src="main_assets/JPL_icons/custome/11.svg">
+            <img src="main_assets/JPL_icons/custome/12.svg">
+        </div>
+        <!--Style: header-->
+        <div id="nav_logo">
+            <img src="main_assets/JPL_icons/JPL_b.svg" alt="JPL" id="iconLogo">
+            <p id="hoverLogo"></p>
+        </div>
+        <!--MODIFY in final www. version!!!-->
+        <div id="nav_list">
+            <ul>
+                <li><a id="contact" href="mailto: Peiling Jiang <&#67&#79&#78&#78&#69&#67&#84&#64&#74&#80&#76&#46&#68&#69&#83&#73&#71&#78>">CONTACT</a></li>
+                <li id="resume"><a href="http://cv.jpl.design">RÉSUMÉ</a></li>
+                <li id="github"><a href="https://www.github.com/peilingjiang" target="_blank">GITHUB</a></li>
+                <li id="blog"><a href="https://blog.jpl.design" target="_blank">BLOG</a></li>
+                <!--<li id="gallery"><a href="gallery/">GALLERY</a></li>-->
+                <!--<li id="media"><a href="http://media.jpl.design">MEDIA</a></li>-->
+            </ul>
+        </div>
+    </header>
+    <!--PLEASE also UPDATE the project NUMBER in main.js-->
+
+    <div id="projects">
+        <!--1-->
+        <div class="contentHolder">
+            <div class="projectHolder">
+                <a href="creativecomputation/"><img class="cover" src="_assets/covers/Creative_Computation.png" alt="CREATIVECOMPUTATION"></a>
+                <p>IN PROGRESS</p>
+                <div class="content">
+                    <h2>Balance in Creative Computation</h2>
+                    <h3>2019</h3>
+                </div>
+            </div>
+            <div class="projectHolder">
+                <a href="crystal/"><img class="cover" src="_assets/covers/Crystal.png" alt="CRYSTAL"></a>
+                <div class="content">
+                    <h2>Crystal: Crystallization Research</h2>
+                    <h3>2018</h3>
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="contentHolder">
+            <div class="projectHolder">
+                <a href="gooddot/"><img class="cover" src="_assets/covers/Gooddot.png" alt="GOODDOT"></a>
+                <div class="content">
+                    <h2>Gooddot</h2>
+                    <h3>2018</h3>
+                </div>
+            </div>
+            <div class="projectHolder">
+                <a href="motionic/"><img class="cover" src="_assets/covers/Motionic.png" alt="MOTIONIC"></a>
+                <div class="content">
+                    <h2>Motionic</h2>
+                    <h3>2017</h3>
+                </div>
+            </div>
+        </div>
+        <!--3-->
+        <div class="contentHolder">
+            <div class="projectHolder">
+                <a href="vesta/"><img class="cover" src="_assets/covers/Vesta.png" alt="VESTA"></a>
+                <div class="content">
+                    <h2>VESTA</h2>
+                    <h3>2019&nbsp;&nbsp;&nbsp;MIT 2.009 Product Engineering Process</h3>
+                </div>
+            </div>
+            <div class="projectHolder">
+                <a href="climate/"><img class="cover" src="_assets/covers/MIT_Climate.png" alt="CLIMATE"></a>
+                <div class="content">
+                    <h2>Climate</h2>
+                    <h3>2018</h3>
+                </div>
+            </div>
+        </div>
+        <!--4-->
+        <div class="contentHolder">
+            <div class="projectHolder">
+                <a href="wuxicard/"><img class="cover" src="_assets/covers/Wuxicard.png" alt="FOUR SEASONS, WUXI CITIZEN CARD"></a>
+                <div class="content">
+                    <h2>Four Seasons, Wuxi Citizen Card</h2>
+                    <h3>2018</h3>
+                </div>
+            </div>
+            <div class="projectHolder">
+                <a href="ashelf/"><img class="cover" src="_assets/covers/Ashelf.png" alt="A SHELF"></a>
+                <div class="content">
+                    <h2>A Shelf</h2>
+                    <h3>2018</h3>
+                </div>
+            </div>
+        </div>
+        <!--5-->
+        <div class="contentHolder">
+            <div class="projectHolder">
+                <a href="colored/"><img class="cover" src="_assets/covers/Colored.png" alt="COLORED"></a>
+                <div class="content">
+                    <h2>Colored</h2>
+                    <h3>2016</h3>
+                </div>
+            </div>
+            <div class="projectHolder" id="lastProject">
+                <a href="photo/"><img class="cover" src="_assets/covers/Photo.png" alt="PHOTOGRAPHY"></a>
+                <div class="content">
+                    <h2>Photography</h2>
+                    <h3>all time</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="statement"></div>
+    <div id="detailBox"></div>
+    <div id="whiteIn"></div>
+
+    <!--<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>-->
+    <script src="variables.js"></script>
+    <script src="_javascript/header.js"></script>
+    <script src="_javascript/main.js"></script>
+    <script src="helper.js"></script>
+    <script src="sketch.js"></script>
+
+</body></html>

@@ -1,0 +1,17 @@
+{
+  "name": "handy",
+  "version": "1.0.0",
+  "description": "Repo for project Handy (ML for Arts F19 Final)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peiling Jiang",
+  "license": "ISC",
+  "dependencies": {
+    "@openbci/cyton": "^2.0.1",
+    "express": "^4.17.1",
+    "require": "^2.4.20",
+    "socket.io": "^2.3.0"
+  }
+}

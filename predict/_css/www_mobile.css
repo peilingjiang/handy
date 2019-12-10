@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+}
+
+#temph1 {
+    color: var(--JPL-blue);
+    text-align: center;
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -20px;
+    line-height: 90%;
+}

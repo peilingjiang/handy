@@ -1,0 +1,26 @@
+body {
+    width: 1008px;
+    font-size: 1em
+}
+
+#nav_logo {
+    width: 40%;
+    max-width: 320px;
+    min-width: 150px;
+    float: left;
+}
+
+#nav_list {
+    float: right;
+    color: var(--JPL-content-shade);
+    text-align: right;
+    margin: 0 -3px 0 0;
+
+}
+
+#nav_list ul {
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 160%;
+    font-weight: var(--JPL-fontw-thin);
+}
