@@ -61,7 +61,7 @@ const options_zoom = {
     inputs: 9 /* 3 for each, 2 channels, 2-4*/,
     outputs: 3 /* in idle out */, /* Zoom in large, zoom out small */
     task: "classification",
-    debug: denug
+    debug: debug
 };
 
 const options_num = {
