@@ -1,0 +1,7 @@
+canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -999999999;
+}

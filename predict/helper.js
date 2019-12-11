@@ -5,6 +5,13 @@ function get_delta(a) {
     return abs(a[l - 1] - a[l - 2]);
 }
 
+function get_delta12(a) {
+    // a is an array
+    // Return the delta (absolute) of the last number and the number 12 index ahead
+    let l = a.length;
+    return abs(a[l - 1] - a[l - 13]);
+}
+
 function get_sd(a, len) {
     // Return the standard deviation of last ten numbers
     let arr = a.slice(-len,);
