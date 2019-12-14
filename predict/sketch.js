@@ -79,19 +79,19 @@ function setup() {
     // brain_num = ml5.neuralNetwork(options_num);
 
     let loadOption_idle = {
-        model: 'models/443-3/idle/model.json',
-        metadata: 'models/443-3/idle/model_meta.json',
-        weights: 'models/443-3/idle/model.weights.bin',
+        model: 'models/443-5/idle/model.json',
+        metadata: 'models/443-5/idle/model_meta.json',
+        weights: 'models/443-5/idle/model.weights.bin',
     };
     let loadOption_scroll = {
-        model: 'models/443-4/scroll/model.json',
-        metadata: 'models/443-4/scroll/model_meta.json',
-        weights: 'models/443-4/scroll/model.weights.bin',
+        model: 'models/443-5/scroll/model.json',
+        metadata: 'models/443-5/scroll/model_meta.json',
+        weights: 'models/443-5/scroll/model.weights.bin',
     };
     let loadOption_zoom = {
-        model: 'models/443-4/zoom/model.json',
-        metadata: 'models/443-4/zoom/model_meta.json',
-        weights: 'models/443-4/zoom/model.weights.bin',
+        model: 'models/443-5/zoom/model.json',
+        metadata: 'models/443-5/zoom/model_meta.json',
+        weights: 'models/443-5/zoom/model.weights.bin',
     };
     // let loadOption_num = {
     //     model: 'models/4-2-2/num/model.json',
