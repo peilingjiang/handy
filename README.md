@@ -2,7 +2,7 @@
 
 Handy is a wearable interface interpreting tangible interaction to intangible experiences.
 
-[Project blog](https://blog.jpl.design/posts/machine-learning-for-the-arts/handy/) | [Demo Video](https://vimeo.com/379383886)
+[Project blog](https://blog.jpl.design/posts/f19/machine-learning-for-the-arts/handy/) | [Demo Video](https://vimeo.com/379383886)
 
 Handy is based on ml5.js Neural Network developed by NYU ITP, and Cyton developed by OpenBCI. This repository stores source code for the data collection, training, and predicting processes of Handy. The demo displaying basic usages is based on Node.js with a hacked version of my own portfolio website.
 
